@@ -1,0 +1,192 @@
+.worksContainer {
+    display : none;
+}
+
+.worksContent {
+    width : 100vw;
+    height : 100vh;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : space-around;
+    background : rgba(235, 236, 241, 1);
+}
+
+.worksHeader {
+    width : 100vw;
+    height : 20vh;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    border-top: 1px solid rgba(255, 255, 255, 0.911);
+}
+
+.myWorks {
+    font-family: 'Pacifico', cursive;
+    font-size : 45px;
+}
+
+.hiddenBtn {
+    width : 4vw;
+    height : 8vh;
+    margin-right : 3vw;
+    border-radius : 4vw;
+    border : 1px solid rgba(255, 255, 255, 0.911);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    box-shadow :
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+    color : rgb(255, 255, 255);
+    background-color: rgba(12, 134, 255, 0.911);
+}
+
+.hiddenBtn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(97, 175, 253, 0.911);
+}
+
+.search {
+    width : 100vw;
+    height : 7vh;
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+}
+
+/* Search */
+
+.searchBox {
+    width : 50vw;
+    height : 7vh;
+    margin: 0 2vw;
+    padding : 0 2vw;
+    border-radius : 20px;
+    border : 1px solid rgba(255, 255, 255, 0.911);
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    box-shadow :
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+    background-color : transparent;
+    font-size: 20px;
+}
+
+.searchBox::placeholder {
+    font-size: 20px;
+}
+
+.stackBox {
+    width: 8vw;
+    height: 7vh;
+    margin: 0 2vw;
+    padding: 0 1vw;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    box-shadow:
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+    background-color: transparent;
+}
+
+.yearBox {
+    width: 8vw;
+    height: 7vh;
+    margin: 0 2vw;
+    padding: 0 2vw;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    box-shadow :
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+    background-color: transparent;
+}
+
+select {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverStyle:hover {
+    box-shadow:
+        0 5px 20px rgba(255, 255, 87, 1),
+        0 15px 80px rgba(255, 255, 87, 1);
+}
+
+.jobSpace {
+    width : 85vw;
+    height : auto;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+}
+
+.arrow {
+    width: 5vw;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    color : rgb(255, 255, 255);
+    background-color: rgba(166, 173, 201, .2);
+}
+
+.arrow:hover {
+    color : rgb(255, 255, 255);
+    background-color: rgba(166, 173, 201, 0.075);
+}
+
+.arrowIcon {
+    height: 5vh;
+}
+
+.jobBox {
+    width: 22vw;
+    height: 60vh;
+    margin: 0 2vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    box-shadow:
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+}
+
+.jobBox:hover {
+    box-shadow:
+        0 5px 20px rgba(255, 255, 87, 1),
+        0 15px 80px rgba(255, 255, 87, 1);
+
+    .line {
+        background-color: rgba(255, 255, 87, 1);
+    }
+}
+
+.jobAvatar {
+    width: 22vw;
+    height: 60vh;
+}
+
+/* Jobs */
+.construction {
+    background-image: url('../img//works//construction.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

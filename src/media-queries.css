@@ -1,0 +1,11 @@
+/* Smartphone */
+@import url('./mobileApp.css') (max-width : 767px);
+@import url('./components/mobileWorks.css') (max-width : 767px);
+
+/* Tablet */
+@import url('./mobileApp.css') (min-width : 768px) and (max-width : 1023px);
+@import url('./components/mobileWorks.css') (min-width : 768px) and (max-width : 1023px);
+
+/* Desktop */
+@import url('./App.css') (min-width : 1024px);
+@import url('./components/works.css') (min-width : 1024px);

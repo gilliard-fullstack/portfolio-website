@@ -1,0 +1,154 @@
+.worksContainer {
+    display: none;
+}
+
+.worksContent {
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: space-around !important;
+    background-color: rgba(235, 236, 241, 1) !important;
+}
+
+.worksHeader {
+    width: 100vw !important;
+    height: 12vh !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.myWorks {
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+}
+
+.hiddenBtn {
+    width: 10vw !important;
+    height: 10vw !important;
+    border-radius : 5vw !important;
+    margin-right: 7vw !important;
+    border: 1px solid rgba(255, 255, 255, 0.911) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-shadow:
+        0 5px 10px rgba(154, 160, 185, .2),
+        0 15px 40px rgba(166, 173, 201, .2);
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(12, 134, 255, 0.911) !important;
+}
+
+.hiddenBtn:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgba(97, 175, 253, 0.911) !important;
+}
+
+.search {
+    display : none !important;
+}
+
+/* Search */
+
+.searchBox {
+    display: none !important;
+}
+
+.searchBox::placeholder {
+    display : none !important;
+}
+
+.stackBox {
+    display: none !important;
+}
+
+.yearBox {
+    display: none !important;
+}
+
+select {
+    display : none !important;
+}
+
+.hoverStyle:hover {
+    box-shadow:
+        0 5px 20px rgba(255, 255, 87, 1),
+        0 15px 80px rgba(255, 255, 87, 1);
+}
+
+.jobSpace {
+    width : 85vw !important;
+    height : 70vh !important;
+    display : flex !important;
+    flex-direction : column !important;
+}
+
+.arrow {
+    display : none !important;
+    width : 0vw !important;
+    height : 0vh !important;
+    border-radius : 10px !important;
+    display : flex !important;
+    flex-direction : row !important;
+    justify-content : center !important;
+    align-items : center !important;
+    border : 1px solid rgba(255, 255, 255, 0.911) !important;
+    color : rgb(255, 255, 255) !important;
+    background-color : rgba(166, 173, 201, .2) !important;
+}
+
+.arrow:hover {
+    display : none !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(166, 173, 201, 0.075) !important;
+}
+
+.arrowIcon {
+    display : none !important;
+    height: 0vh !important;
+}
+
+.jobBox {
+    width : 80vw !important;
+    height : 22vh !important;
+    margin-bottom : 2vh !important;
+    border-radius : 10vh !important;
+    padding : 0px !important;
+    display : flex !important;
+    flex-direction : column !important;
+    justify-content : space-between !important;
+    align-items : center !important;
+    border : 1px solid rgba(255, 255, 255, 0.911) !important;
+    box-shadow :
+        0 2px 10px rgba(154, 160, 185, .2),
+        0 10px 40px rgba(166, 173, 201, .2);
+}
+
+.jobBox:hover {
+    box-shadow:
+        0 5px 20px rgba(255, 255, 87, 1),
+        0 15px 80px rgba(255, 255, 87, 1);
+
+    .line {
+        display : none !important;
+        background-color: rgba(255, 255, 87, 1);
+    }
+}
+
+.jobAvatar {
+    width : 80vw !important;
+    height : 22vh !important;
+    border-radius: 11vh !important;
+}
+
+/* Jobs */
+.construction {
+    background-image: url('../img//works//construction.png') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
